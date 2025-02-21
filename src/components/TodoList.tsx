@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 
 const TodoList: React.FC = () => {
-const getLocalItems = (): string [] => {
+const getLocalItems = () => {
     const storedItems = localStorage.getItem("todos");
     return storedItems ? JSON.parse(storedItems):[];
 };
@@ -39,7 +39,7 @@ const itemDelete = (index: number): void => {
         <ul className="list-items">
             {items.map((item, index) => (
                 <li key={index}>
-                   ✔️ {item} {""}
+                   ✔️ {item}
                     <button onClick={() => itemDelete(index)}>Delete</button>
                 </li>
                 
