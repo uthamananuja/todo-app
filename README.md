@@ -24,9 +24,9 @@ npm run dev
   - setItems([...items, input]) → Adds a new item.
   - setItems(items.filter((_, i) => i !== index)) → Delete an item.
 
-Persisting Data (localStorage)
-Retrieve tasks from localStorage when the app loads.
-Save tasks to localStorage whenever they are added or removed.
+#Persisting Data (localStorage)
+- Retrieve tasks from localStorage when the app loads.
+- Save tasks to localStorage whenever they are added or removed.
 
 --------------------------------
  🎯 What you learn
