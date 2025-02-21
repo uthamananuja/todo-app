@@ -26,8 +26,6 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {
@@ -35,25 +33,50 @@ h1 {
   line-height: 1.1;
 }
 
-button {
+.todo-list button, button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
+  margin: 0 7px;
   font-size: 1em;
   font-weight: 500;
+  color: #fff;
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
+.todo-list button:hover {
   border-color: #646cff;
 }
-button:focus,
-button:focus-visible {
+.todo-list button:focus,
+.todo-list button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
+.todo-list{
+  display: flex;
+}
+input {
+  width: 80%;
+  padding: 8px;
+  margin: 1px;
+}
+.list-items{
+  padding-left: 0;
+}
+.list-items button{
+  background-color: red;
+  padding: 3px 8px;
+}
+.list-items li {
+  margin-top: 10px;
+  padding: 10px 5px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e4e9;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
