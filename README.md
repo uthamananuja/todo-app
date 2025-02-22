@@ -12,10 +12,10 @@ A simple **Todo App** built with **React, TypeScript, and Vite** that lets users
 
 ## 🛠️ Installation 
 
-npm create vite@latest my-todo-app --template react
-cd my-todo-app
-npm install
-npm run dev
+npm create vite@latest my-todo-app --template react 
+cd my-todo-app 
+npm install 
+npm run dev 
 
 
 #How it works
