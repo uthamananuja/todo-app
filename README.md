@@ -12,10 +12,10 @@ A simple **Todo App** built with **React, TypeScript, and Vite** that lets users
 
 ## 🛠️ Installation 
 
-npm create vite@latest my-todo-app --template react 
-cd my-todo-app 
-npm install 
-npm run dev 
+npm create vite@latest my-todo-app --template react  
+cd my-todo-app  
+npm install  
+npm run dev  
 
 
 #How it works
@@ -31,9 +31,9 @@ npm run dev
 --------------------------------
  🎯 What you learn
 --------------------------------  
-✅ JavaScript ES6 (map(), filter(), event handling)
-✅ React Components
-✅ React State Management (useState)
-✅ React Event Handling (onClick, onChange)
-✅ List Rendering (map())
-✅ Data Persistence with localStorage
+✅ JavaScript ES6 (map(), filter(), event handling)  
+✅ React Components  
+✅ React State Management (useState)  
+✅ React Event Handling (onClick, onChange)  
+✅ List Rendering (map())  
+✅ Data Persistence with localStorage  
